@@ -1,5 +1,8 @@
 {
-  "name": "Home Assistant Baby Buddy Add-on",
+  "name": "Paul's Baby Buddy Add-ons",
   "url": "https://github.com/paulolson512/babybuddy",
-  "maintainer": "Paul Olson"
+  "maintainer": "Paul Olson",
+  "addons": [
+    "babybuddy"
+  ]
 }

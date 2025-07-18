@@ -1,14 +1,11 @@
 {
-  "name": "Baby Buddy (Local)",
+  "name": "Baby Buddy",
   "version": "1.0.0",
   "slug": "babybuddy",
-  "description": "Baby Buddy add-on with ingress support",
+  "description": "A web-based baby tracker",
   "startup": "services",
   "boot": "auto",
   "ingress": true,
-  "ingress_port": 8000,
-  "ports": {
-    "8000/tcp": 8000
-  },
-  "image": "local/babybuddy:1.0.0"
+  "panel_icon": "mdi:baby-face-outline",
+  "image": "ghcr.io/paulolson512/babybuddy-addon/{arch}"
 }
